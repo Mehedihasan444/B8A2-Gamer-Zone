@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1240px;
+    max-width: 1262px;
     height: 100px;
     margin: 0 auto;
 
@@ -31,6 +31,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    margin-left: 22px;
 }
 
 .logo img {
@@ -95,7 +96,7 @@ header {
     background-image: url("./Assets/images/Group\ 14.png");
     background-position: top left;
     background-repeat: no-repeat;
-    padding: 0 140px;
+    padding: 0 150px;
 }
 
 .banner-content h2 {
@@ -130,6 +131,8 @@ header {
     color: white;
     margin-right: 0.625rem;
     margin-top: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .banner-btn-1 {
