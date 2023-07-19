@@ -1,86 +1,125 @@
 /* Responsive for Tablet */
-@media screen and (min-width:576px) and (max-width:992px){
+@media screen and (min-width:576px) and (max-width:992px) {
+
     /* Start Banner here */
     .banner {
         padding: 50px 50px;
 
     }
+
     .banner-content h2 {
         font-size: 2rem;
         padding-top: 2rem;
     }
+
     .banner-content h1 {
         font-size: 4rem;
     }
-    .banner-content-list ul li{
+
+    .banner-content-list ul li {
         font-size: 12px;
         padding-left: 3.5rem;
     }
-    .banner-btns{
+
+    .banner-btns {
         display: flex;
         justify-content: center;
         align-items: center;
-margin-left: 50px;
+        margin-left: 50px;
     }
-    .banner-btns button{
-       font-size: 15px;
+
+    .banner-btns button {
+        font-size: 15px;
     }
-    .banner-btn-2,.banner-btn-1{
+
+    .banner-btn-2,
+    .banner-btn-1 {
         padding: 15px 30px;
     }
+
     .banner-img {
         width: 45%;
     }
+
     /* end Banner here */
 
-      /* Start play instantly section here */
-      .main-play-instantly-content{
+    /* Start play instantly section here */
+    .main-play-instantly-content {
         flex-direction: column;
         width: 100%;
-      }
-      .play-instantly-content h3 {
+    }
+
+    .play-instantly-content h3 {
         text-align: center;
         font-size: 40px;
     }
-      .play-instantly-content p {
+
+    .play-instantly-content p {
         text-align: center;
         font-size: 12px;
     }
+
     .play-instantly-content {
-        padding-top: 0px; 
-         width: 100%;
+        padding-top: 0px;
+        width: 100%;
     }
+
     .play-instantly-img {
         margin-left: 80px;
     }
+
     .play-instantly-img img {
         width: 90%;
     }
-    .floating-img-div{
+
+    .floating-img-div {
         bottom: 215px;
         left: -225px;
     }
-      /* end play instantly section here */
 
-      /* start game catagories section */
-      .games-catagories{
+    /* end play instantly section here */
+
+    /* start online games section */
+
+    .primary-heading {
+        font-size: 40px;
+    }
+
+    .primary-heading span {
+        font-size: 40px;
+    }
+
+    .primary-description {
+        font-size: 12px;
+    }
+
+    /* end online games section */
+
+    /* start game catagories section */
+    .games-catagories {
         padding: 20px 50px;
     }
-    .games-catagories ul{
+
+    .games-catagories ul {
         gap: 20px;
         width: 100%;
     }
-    .games-catagories ul li img{
+
+    .games-catagories ul li img {
         width: 25px;
     }
-    .games-catagories ul li a{
+
+    .games-catagories ul li a {
         font-size: 12px;
     }
-      /* end game catagories section */
+
+    /* end game catagories section */
 }
 
 /* Responsive for mobile */
 @media screen and (max-width: 576px) {
+
+     /* Start header here */
     header {
         box-shadow: none;
         position: static;
@@ -102,7 +141,9 @@ margin-left: 50px;
         justify-content: center;
         padding: 20px 0px;
     }
+/* end header here */
 
+/* Start banner here */
     .banner {
         flex-direction: column-reverse;
         width: calc(100%-50px);
@@ -127,9 +168,10 @@ margin-left: 50px;
         justify-content: center;
         padding-left: 40px;
     }
-    .banner-content-list ul li{
+
+    .banner-content-list ul li {
         font-size: 12px;
-       
+
 
     }
 
@@ -163,41 +205,57 @@ margin-left: 50px;
         padding: 16px 30px;
         background: #4EC5F7;
     }
+/* end banner here */
 
+/* Start funny-videos here */
     .funny-videos-grid {
         grid-template-columns: repeat(1, 1fr);
     }
-    .main-play-instantly-content{
+    .primary-description{
+        font-size: 12px;
+    }
+    .primary-heading{
+        font-size: 40px;
+    }
+/* end  funny-videos here */
+
+/* Start play-instantly here */
+    .main-play-instantly-content {
         width: 100%;
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
+
     .play-instantly-content {
         padding-top: 45px;
         width: 100%;
     }
+
     .play-instantly-content h3 {
         text-align: center;
         font-size: 40px;
     }
-    .primary-heading span{
+
+    .primary-heading span {
         font-size: 40px;
 
     }
+
     .play-instantly-content p {
         text-align: center;
         font-size: 12px;
     }
+
     .play-instantly-img {
-        margin:20px 0px ;
+        margin: 20px 0px;
         padding-left: 70px;
-    
+
     }
-    
-    
-    .floating-img-div{
-        width:80%;
+
+
+    .floating-img-div {
+        width: 80%;
         justify-content: start;
         left: 10px;
         bottom: 180px;
@@ -207,24 +265,32 @@ margin-left: 50px;
     .floating-img {
         width: 120px;
     }
-    .play-instantly-content h3{
+
+    .play-instantly-content h3 {
         font-size: 40px;
     }
-    .play-instantly-content p{
+
+    .play-instantly-content p {
         font-size: 16px;
     }
+/* end play-instantly here */
 
-    .games-catagories{
+/* Start games-catagories here */
+    .games-catagories {
         padding: 20px 0;
     }
-    .games-catagories ul{
+
+    .games-catagories ul {
         gap: 20px;
         width: 100%;
     }
-    .games-catagories ul li img{
+
+    .games-catagories ul li img {
         width: 25px;
     }
-    .games-catagories ul li a{
+
+    .games-catagories ul li a {
         font-size: 12px;
     }
+    /* end games-catagories here */
 }
