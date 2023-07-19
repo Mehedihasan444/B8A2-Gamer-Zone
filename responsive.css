@@ -92,6 +92,11 @@
     .primary-description {
         font-size: 12px;
     }
+    .funny-videos-grid {
+       
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
     /* end online games section */
 
@@ -208,8 +213,12 @@
 /* end banner here */
 
 /* Start funny-videos here */
+.Online-video-games{
+    width: 70%;
+}
     .funny-videos-grid {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
     .primary-description{
         font-size: 12px;
