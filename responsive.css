@@ -121,4 +121,18 @@
     .play-instantly-content p{
         font-size: 16px;
     }
+
+    .games-catagories{
+        padding: 20px 0;
+    }
+    .games-catagories ul{
+        gap: 20px;
+        width: 100%;
+    }
+    .games-catagories ul li img{
+        width: 25px;
+    }
+    .games-catagories ul li a{
+        font-size: 12px;
+    }
 }
