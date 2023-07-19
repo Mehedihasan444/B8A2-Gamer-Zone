@@ -1,3 +1,84 @@
+/* Responsive for Tablet */
+@media screen and (min-width:576px) and (max-width:992px){
+    /* Start Banner here */
+    .banner {
+        padding: 50px 50px;
+
+    }
+    .banner-content h2 {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    .banner-content h1 {
+        font-size: 4rem;
+    }
+    .banner-content-list ul li{
+        font-size: 12px;
+        padding-left: 3.5rem;
+    }
+    .banner-btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+margin-left: 50px;
+    }
+    .banner-btns button{
+       font-size: 15px;
+    }
+    .banner-btn-2,.banner-btn-1{
+        padding: 15px 30px;
+    }
+    .banner-img {
+        width: 45%;
+    }
+    /* end Banner here */
+
+      /* Start play instantly section here */
+      .main-play-instantly-content{
+        flex-direction: column;
+        width: 100%;
+      }
+      .play-instantly-content h3 {
+        text-align: center;
+        font-size: 40px;
+    }
+      .play-instantly-content p {
+        text-align: center;
+        font-size: 12px;
+    }
+    .play-instantly-content {
+        padding-top: 0px; 
+         width: 100%;
+    }
+    .play-instantly-img {
+        margin-left: 80px;
+    }
+    .play-instantly-img img {
+        width: 90%;
+    }
+    .floating-img-div{
+        bottom: 215px;
+        left: -225px;
+    }
+      /* end play instantly section here */
+
+      /* start game catagories section */
+      .games-catagories{
+        padding: 20px 50px;
+    }
+    .games-catagories ul{
+        gap: 20px;
+        width: 100%;
+    }
+    .games-catagories ul li img{
+        width: 25px;
+    }
+    .games-catagories ul li a{
+        font-size: 12px;
+    }
+      /* end game catagories section */
+}
+
 /* Responsive for mobile */
 @media screen and (max-width: 576px) {
     header {
@@ -39,12 +120,17 @@
 
     .banner-content h1 {
 
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .banner-content-list {
         justify-content: center;
-        padding-left: 20px;
+        padding-left: 40px;
+    }
+    .banner-content-list ul li{
+        font-size: 12px;
+       
+
     }
 
     .banner-img {
@@ -93,9 +179,15 @@
     }
     .play-instantly-content h3 {
         text-align: center;
+        font-size: 40px;
+    }
+    .primary-heading span{
+        font-size: 40px;
+
     }
     .play-instantly-content p {
         text-align: center;
+        font-size: 12px;
     }
     .play-instantly-img {
         margin:20px 0px ;
