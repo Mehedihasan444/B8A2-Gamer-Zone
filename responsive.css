@@ -107,7 +107,7 @@
     .floating-img-div{
         width:80%;
         justify-content: start;
-        left: 50px;
+        left: 10px;
         bottom: 180px;
         flex-direction: column;
     }
