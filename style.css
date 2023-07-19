@@ -250,15 +250,109 @@ header {
 }
 
 .play {
-   font-size: 48px;
+    font-size: 48px;
 }
-
-
 
 /* ending Online Games Funny Videos section*/
 
+
+/* starting  Play Instantly, No Downloads No Installs section*/
+.Play-Instantly-No-Downloads-No-Installs .main-play-instantly-content {
+    display: flex;
+    width: 80%;
+    margin: 70px auto;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.floating-img-div {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 250px;
+    left: 150px;
+}
+
+.floating-img {
+    width: 200px;
+}
+
+.play-instantly-content {
+    padding-top: 100px;
+    width: 60%;
+}
+
+.play-instantly-img {
+    margin-left: 150px;
+
+}
+
+.play-instantly-img img {
+    width: 100%;
+
+
+}
+
+.play-instantly-content h3 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.play-instantly-content h3 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-content p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+/* ending  Play Instantly, No Downloads No Installs section*/
+
+
+/* starting game catagories section */
+.games-catagories{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px 0;
+   
+}
+.games-catagories ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
+}
+.games-catagories ul li a{
+    text-decoration: none;
+}
+.games-catagories ul li {
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+/* ending game catagories section */
+
 /* starting footer section */
-footer{
+footer {
     text-align: center;
     background-color: #000000;
     color: white;
@@ -287,7 +381,7 @@ footer{
     font-size: 2.8rem;
 }
 
-.footer-list{
+.footer-list {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -296,98 +390,18 @@ footer{
     cursor: pointer;
     flex-wrap: wrap;
 }
-.footer-second-list,small{
+
+.footer-second-list,
+small {
     color: rgba(255, 255, 255, 0.60);
-font-size: 16px;
-font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
 }
-.social-icons{
+
+.social-icons {
     font-size: 40px;
 }
+
 /* ending footer section */
-/* Responsive for mobile */
-@media screen and (max-width: 576px) {
-    header {
-        box-shadow: none;
-        position: static;
-    }
-
-    .nav-container {
-        flex-direction: column;
-        height: 220px;
-
-    }
-
-    .menus ul {
-        flex-direction: column;
 
 
-    }
-
-    .menus ul li {
-        justify-content: center;
-        padding: 20px 0px;
-    }
-
-    .banner {
-        flex-direction: column-reverse;
-        width: calc(100%-50px);
-        margin: 30px;
-        padding: 30px;
-        background-size: cover;
-        height: 80%;
-        border-radius: 10px;
-    }
-
-    .banner-content h2 {
-        margin-top: 1rem;
-        font-size: 30px;
-    }
-
-    .banner-content h1 {
-
-        font-size: 5rem;
-    }
-
-    .banner-content-list {
-        justify-content: center;
-        padding-left: 20px;
-    }
-
-    .banner-img {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .banner-img img {
-        /* width: 300px;
-        height: 300px; */
-        width: 100%;
-        /* margin-left: -110px; */
-    }
-
-    .banner-btns {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .banner-btns button {
-        font-size: 1rem;
-    }
-
-    .banner-btn-1 {
-        padding: 16px 30px;
-
-        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    }
-
-    .banner-btn-2 {
-        padding: 16px 30px;
-        background: #4EC5F7;
-    }
-
-    .funny-videos-grid{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-}
